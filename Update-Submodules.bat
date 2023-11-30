@@ -17,6 +17,6 @@ for /l %%i in (0, 1, 1) do (
     )
 
     REM Clone the repository
-    git clone --branch !version! https://github.com/HETONGAPP/!name!.git
+    git clone --branch !version! --single-branch https://github.com/HETONGAPP/!name!.git
 )
 endlocal
